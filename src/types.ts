@@ -9,3 +9,8 @@ export type TCourse = {
     lessons: number,
     stack: COURSE_STACK
 }
+export type TStudent = {
+    id: string,
+    name: string,
+    age: number
+}
